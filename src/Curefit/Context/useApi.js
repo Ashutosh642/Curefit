@@ -20,7 +20,7 @@ const useApi = () => {
     const { Home, Live, Mind, Eat, Gear, Membership, Details, Amount,Cart } = state;
 
     useEffect(() => {
-        fetch('https://jsonblob.com/api/7d75d774-b2de-11ea-a126-edc6f0c60707')
+        fetch('https://jsonblob.com/api/923092286682972160')
             .then(res => res.json())
             .then(json => {
                 let [{ home, live, mind, eat, gear, membershipDetails }] = json
